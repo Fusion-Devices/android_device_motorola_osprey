@@ -163,3 +163,24 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+
+# TWRP
+DEVICE_RESOLUTION := 1280x720
+
+# SaberMod
+-include vendor/fusion/config/sm.mk
+
+# Fusion Optimizations
+FUSION_OPT := true
+FUSION_O3 := true
+FUSION_STRICT := false
+FUSION_OFAST := true
+FUSION_KRAIT := false
+FUSION_GRAPHITE := true
+FUSION_PIPE := false
+FUSION_ENABLE_GCCONLY := true
+FLOOP_NEST_OPTIMIZE := true
+FUSION_FFAST_MATH := true
+TARGET_FUSION_ROM := 4.9
+TARGET_FUSION_KERNEL := 4.9-sm
+
