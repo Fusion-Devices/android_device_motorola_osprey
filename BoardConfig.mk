@@ -166,6 +166,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # TWRP
 DEVICE_RESOLUTION := 1280x720
+TW_THEME := portrait_hdpi
 
 # SaberMod
 -include vendor/fusion/config/sm.mk
